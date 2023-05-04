@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/football_helmet"
+    tools:context=".List_of_Games_football">
+
+    <ListView
+        android:id="@+id/games"
+        android:layout_width="250dp"
+        android:layout_height="450dp"
+        android:cacheColorHint="#2196F3"
+        android:textFilterEnabled="false"
+        android:translationX="0dp"
+        android:translationY="0dp" />
+        android:textColor="@color/abc_primary_text_material_dark"
+</FrameLayout>

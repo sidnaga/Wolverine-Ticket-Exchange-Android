@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Tweet" android:id="@+id/tweet"/>
+    <item android:title="View Feed" android:id="@+id/feed"/>
+    <item android:title="Your Tweets" android:id="@+id/your_tweets"/>
+    <item android:title="Games" android:id="@+id/games"/>
+    <item android:title="Ongoing Conversations" android:id="@+id/convos"/>
+    <item android:title="Settings" android:id="@+id/settings"/>
+    <item android:title="Log Out" android:id="@+id/Logout"/>
+</menu>

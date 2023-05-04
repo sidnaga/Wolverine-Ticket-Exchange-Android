@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Indiv_Tweet">
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <Button
+        android:id="@+id/pub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reply_public"
+        android:text="Reply Public"
+        android:translationX="150dp"
+        android:translationY="550dp" />
+
+    <Button
+        android:id="@+id/priv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reply_private"
+        android:text="Reply Private"
+        android:translationX="150dp"
+        android:translationY="600dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:translationY="600dp" />
+</FrameLayout>
